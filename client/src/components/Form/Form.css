@@ -1,0 +1,36 @@
+.add-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.add-form * {
+    margin: 5px;
+}
+
+.add-form button {
+    margin-top: 10px;
+    padding: 3px;
+    min-width: 100px;
+    max-width: 120px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    height: 26px;
+    background-color: rgb(175, 174, 202);
+    font-size: 14px;
+}
+
+.add-form button:hover {
+    transform: scale(1.05);
+    margin-left: 8px;
+}
+
+.add-form input {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(226, 225, 255);
+    height: 23px;
+    padding: 3px 8px;
+}

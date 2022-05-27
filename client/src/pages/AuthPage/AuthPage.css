@@ -1,0 +1,45 @@
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    max-width: 400px;
+}
+
+.form-inputs > * {
+    padding: 5px 1px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-inputs > input {
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    width: 400px;
+    background-color: rgb(226, 225, 255);
+    padding: 3px 5px;
+    height: 23px;
+}
+
+.btn-auth {
+    margin-left: 15px;
+    color: rgb(124, 124, 138);
+}
+
+.btn-auth:hover {
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+    .form-inputs {
+        max-width: 300px;
+    }
+    .form-inputs > input {
+        max-width: 280px;
+    }
+}
