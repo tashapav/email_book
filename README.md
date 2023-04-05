@@ -25,3 +25,13 @@
 Запуск в режиме development (порты 3000, 3001)
 ###### `npm run prod`
 Запуск в режиме production (порт 3001)
+
+
+##### Пример работы
+![](./README_images/example1.jpg)
+![](./README_images/example2.jpg)
+![](./README_images/example3.jpg)
+![](./README_images/example4.jpg)
+![](./README_images/example5.jpg)
+![](./README_images/example6.jpg)
+![](./README_images/example7.jpg)
